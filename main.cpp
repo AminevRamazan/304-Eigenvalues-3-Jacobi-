@@ -58,7 +58,7 @@ int main(int argc, char* argv[]) {
     chrono::duration<double> elapsed = end - start;
 
     // Вывод решения
-    cout << "Решение x:" << endl;
+    cout << "Собственные значения:" << endl;
     printVector(x, m);
 
     // Вычисление и вывод нормы невязки
